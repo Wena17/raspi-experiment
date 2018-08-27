@@ -42,9 +42,8 @@ try:
         change()
 
 finally:
-    Car.red.off()
-    Car.amber.off()
-    Car.green.off()
-    Ped.red.off()
-    Ped.green.off()
-    TrafficLights.cleanup()
+    Car.off()
+    Ped.off()
+    Car.close()
+    Ped.close()
+    button.close()
