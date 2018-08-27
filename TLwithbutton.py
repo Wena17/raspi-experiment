@@ -9,7 +9,7 @@ Pd_green = 6
 button_pin = 13
 
 Car = TrafficLights(Car_red, Car_amber, Car_green)
-Ped = TrafficLights(Pd_red, pwm, Pd_green)
+Ped = TrafficLights(Pd_red, 14, Pd_green)
 button = Button(button_pin)
 
 Car.off()
